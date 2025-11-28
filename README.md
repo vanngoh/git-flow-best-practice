@@ -29,7 +29,7 @@ gitGraph
   checkout release/1.0.0
   merge develop tag: "Merge & CI/CD"
   checkout main
-  merge release/1.0.0 tag: "Squash & Merge & CI/CD"
+  merge release/1.0.0 tag: "Merge & CI/CD"
   checkout develop
   merge release/1.0.0 tag: "Merge"
   checkout main
@@ -37,7 +37,7 @@ gitGraph
   checkout fix/user1-task1-detail
   commit tag: "fix: bug"
   checkout main
-  merge fix/user1-task1-detail tag: "Squash & Merge & CI/CD"
+  merge fix/user1-task1-detail tag: "Merge & CI/CD"
   checkout develop
   merge fix/user1-task1-detail tag: "Merge"
   branch release/1.1.0
