@@ -1,5 +1,7 @@
 # Git Flow Best Practice
 
+<img src="./gitGraph.png" height=500px />
+
 ```mermaid
 %%{init: { 'logLevel': 'debug', 'theme': 'base', 'gitGraph': {'showBranches': true}} }%%
 gitGraph
